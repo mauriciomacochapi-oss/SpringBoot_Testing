@@ -30,6 +30,7 @@
 		<java.version>21</java.version>
 		<kotlin.version>2.3.21</kotlin.version>
 		<kotest.version>6.2.0</kotest.version>
+		<mockk.version>1.14.11</mockk.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -103,6 +104,16 @@
             <scope>test</scope>
 		</dependency>
 
+		<!-- Otras dependencias -->
+		<!-- MokK dependencies -->
+         <dependency>
+             <groupId>io.mockk</groupId>
+             <artifactId>mockk-jvm</artifactId>
+             <version>${mockk.version}</version>
+             <scope>test</scope>
+         </dependency>
+
+
 
 	</dependencies>
 
@@ -132,6 +143,10 @@
 						<artifactId>kotlin-maven-allopen</artifactId>
 						<version>${kotlin.version}</version>
 					</dependency>
+
+
+
+
 				</dependencies>
 			</plugin>
 		</plugins>
