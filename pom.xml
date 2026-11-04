@@ -113,6 +113,15 @@
              <scope>test</scope>
          </dependency>
 
+         <!-- Otras dependencias -->
+         <!-- Ninja dependencies -->
+         <dependency>
+            <groupId>com.ninja-squad</groupId>
+            <artifactId>springmockk</artifactId>
+            <version>5.0.1</version>
+            <scope>test</scope>
+         </dependency>
+
 
 
 	</dependencies>
