@@ -1,4 +1,4 @@
-package backend.etec
+package io.kotest.provided
 
 import io.kotest.core.config.AbstractProjectConfig
 import io.kotest.extensions.spring.SpringExtension
